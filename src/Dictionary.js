@@ -32,6 +32,9 @@ export default function Dictionary() {
           autoFocus={true}
           onChange={handleKeywordChange}
         ></input>
+        <button className="shadow" type="submit">
+          Search
+        </button>
       </form>
     </div>
   );
