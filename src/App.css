@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
 }
-.App img {
-  width: 100px;
+.App header {
+  font-size: 70px;
+  margin-bottom: 5px;
 }

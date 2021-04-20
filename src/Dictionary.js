@@ -27,7 +27,7 @@ export default function Dictionary() {
     setKeyword(event.target.value);
   }
   return (
-    <div>
+    <div className="Dictionary">
       <form onSubmit={handleSubmit}>
         <input
           className="shadow"
@@ -39,7 +39,7 @@ export default function Dictionary() {
           Search
         </button>
       </form>
-      <Results results={results} keyword={keyword}/>
+      <Results results={results} keyword={keyword} />
     </div>
   );
 }
