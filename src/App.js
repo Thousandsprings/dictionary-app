@@ -14,6 +14,7 @@ export default function App() {
         <a
           href="https://www.linkedin.com/in/chiharu-suzuki-915130201/"
           target="_blank"
+          rel="noreferrer"
         >
           linkedin
         </a>
@@ -21,6 +22,7 @@ export default function App() {
         <a
           href="https://github.com/Thousandsprings/dictionary-app"
           target="_blank"
+          rel="noreferrer"
         >
           gitHub
         </a>
