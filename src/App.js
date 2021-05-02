@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">-Dictionary-</header>
 
-      <Dictionary />
+      <Dictionary defaultKeyword="dictionary" />
       <footer>
         Coded by Chiharu Suzuki (
         <a
