@@ -1,4 +1,8 @@
+.Photos row {
+  margin: 0 auto;
+}
 .Photos .eachPhoto {
-  margin-bottom: 10px;
+  margin: 10px;
   border-radius: 4px;
+  max-width: 200px;
 }

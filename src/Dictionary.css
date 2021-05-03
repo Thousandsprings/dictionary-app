@@ -1,3 +1,6 @@
+.Dictionary input {
+  padding: 5px 20px;
+}
 .Dictionary button {
   margin-left: 15px;
   border-radius: 3px;

@@ -57,6 +57,7 @@ export default function Dictionary(props) {
               type="search"
               autoFocus={true}
               onChange={handleKeywordChange}
+              placeholder="dictionary"
             ></input>
             <button type="submit">Search</button>
           </form>
