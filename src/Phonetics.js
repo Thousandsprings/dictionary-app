@@ -2,7 +2,7 @@ import React from "react";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
-  console.log(props.phonetics);
+  // console.log(props.phonetics);
   return (
     <p className="Phonetics">
       <span>{props.phonetics.text}</span>

@@ -4,7 +4,7 @@ import "./Meaning.css";
 
 export default function Meaning(props) {
   //   console.log(props.meaning); //shows objects
-  console.log(props);
+  // console.log(props);
 
   return (
     <div className="Meaning">
@@ -14,9 +14,7 @@ export default function Meaning(props) {
           <div key={index}>
             <p className="h4">{definition.definition}</p>
             <p>
-              <p>
-                <em className="h4">{definition.example}</em>
-              </p>
+              <em className="h4">{definition.example}</em>
             </p>
             <Synonyms synonyms={definition.synonyms} />
           </div>
