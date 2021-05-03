@@ -1,8 +1,16 @@
-ul {
+.Synonyms {
+  background-color: rgb(221, 243, 242);
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.Synonyms h6 {
+  margin-bottom: 0px;
+}
+.Synonyms ul {
   list-style-type: none;
   padding-left: 0;
 }
-li {
+.Synonyms li {
   display: inline-block;
   margin-right: 20px;
   opacity: 0.7;
