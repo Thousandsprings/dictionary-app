@@ -5,8 +5,13 @@
 }
 .App header {
   font-size: 70px;
+  display: inline-block;
 }
-
+@media (max-width: 800px) {
+  .App header {
+    font-size: 50px;
+  }
+}
 .App section {
   background-color: #f9f9f9;
   padding: 10px 20px;
