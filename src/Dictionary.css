@@ -1,7 +1,9 @@
-.Dictionary form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (max-width: 800px) {
+  .Dictionary form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .Dictionary input {
   padding: 5px 20px;
